@@ -1,0 +1,90 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f0f0f0; /* Adjust as needed */
+  position: sticky;
+  /* top: 0; */
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .search {
+  margin-left: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-left: 1rem;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: #000; /* Adjust as needed */
+}
+
+.navbar .menu-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(28, 25, 25); /* Adjust as needed */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    height: 100vh;
+    padding: 50px;
+  }
+
+  .navbar ul.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .navbar ul li {
+    margin: 0.5rem 0;
+  }
+
+  .navbar .menu-button {
+    /* Style the menu button differently for mobile */
+    font-size: 1.5rem; /* Example */
+  }
+  .navbar ul a{
+    color: #fff;
+    
+  }
+}
+
+@media (min-width: 768px){
+  .navbar .menu-button {
+    display: none;
+  }
+}
+
+/* Optional: Font Awesome icon integration */
+

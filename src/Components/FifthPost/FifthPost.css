@@ -1,0 +1,167 @@
+.fifthpost{
+    width: 965px;
+    height: 500px;
+    border-radius: 5px;
+    background:#F7FAFC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    padding-left: 54.28px;
+    margin-top: 43px;
+}
+.fifthpostheader{
+    color: #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fifthpostbodydiv{
+    width: 311px;
+    margin-top: 27px;
+}
+.fifthpostbody{
+    color:#718096;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.fifthdate{
+    color:#718096;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.fifthmore{
+    color:#2D3748;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.fifthonlylap{
+    width: 525px;
+    height: 500px;
+}
+.datemore{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seemorediv{
+    width: 122px;
+    height: 37px;
+    border-radius: 5px;
+    background:#6B46C1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.seemorediv p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.je{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+    .fifthpost{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .fifthpostbodydiv{
+        width: 100%;
+    }
+    .fifthpostbody{
+        width: 100%;
+    }
+    .fifthonlylap{
+        width: 100%;
+    }
+    .fifthpostheader{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .fifthpost{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .fifthpostbodydiv{
+        width: 100%;
+    }
+    .fifthpostbody{
+        width: 100%;
+    }
+    .fifthonlylap{
+        width: 100%;
+    }
+    .fifthpostheader{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .fifthpost{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .fifthpostbodydiv{
+        width: 100%;
+    }
+    .fifthpostbody{
+        width: 100%;
+    }
+    .fifthonlylap{
+        width: 100%;
+    }
+    .fifthpostheader{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .fifthpost{
+        width: 100%;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .fifthpostbodydiv{
+        width: 100%;
+    }
+    .fifthpostbody{
+        width: 100%;
+        font-size: 20px;
+    }
+    .fifthonlylap{
+        width: 100%;
+    }
+    .fifthpostheader{
+        font-size: 30px;
+    }
+    
+}

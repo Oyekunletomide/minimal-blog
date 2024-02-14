@@ -1,0 +1,106 @@
+.detailimage{
+    width: 973px;
+    height: 380.375px;
+}
+.detailheader{
+    color:#2D3748;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 41.63px;
+}
+.detailuser{
+    color:#2D3748;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.detaildate{
+    color:#718096;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.detailbodydiv{
+    width: 765px;
+    margin-top: 68px;
+}
+.detailbody{
+    color:#718096;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.userdatediv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+.postdetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.postdetailsdiv{
+    position: relative;
+}
+.scrollup{
+    position: absolute;
+    bottom: 73px;
+    right: 71px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 320px){
+    .detailimage{
+        width: 100%;
+    }
+    .detailbodydiv{
+        width: 100%;
+        padding: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .detailimage{
+        width: 100%;
+    }
+    .detailbodydiv{
+        width: 100%;
+        padding: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .detailimage{
+        width: 100%;
+    }
+    .detailbodydiv{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .detailimage{
+        width: 100%;
+    }
+    .detailbodydiv{
+        width: 100%;
+        padding: 10px;
+    }
+}

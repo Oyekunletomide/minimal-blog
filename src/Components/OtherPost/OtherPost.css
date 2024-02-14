@@ -1,0 +1,137 @@
+
+
+
+.otherpostcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 34px;
+    margin-top: 43px;
+}
+.otherpostheader{
+    color: #2D3748;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 16px;
+}
+.otherpostbodydiv{
+    width: 258px;
+    margin-top: 27px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 0;
+    padding-top: 15px;
+}
+.otherpostbody{
+    color:#718096;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.div{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(192, 189, 189, 0.25);
+}
+.date{
+    color:#718096;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 16px;
+}
+.more{
+    color:#2D3748;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 24px;
+}
+.onlylap{
+    width: 297px;
+    height: 179px;
+}
+.datemore{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+    .otherpostcontainer{
+        width: 100%;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .otherpostbodydiv{
+        width: 100%;
+        
+    }
+    .onlylap{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .otherpostcontainer{
+        width: 100%;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .otherpostbodydiv{
+        width: 100%;
+        
+    }
+    .onlylap{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .otherpostcontainer{
+        width: 100%;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .otherpostbodydiv{
+        width: 100%;
+        
+    }
+    .onlylap{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .otherpostcontainer{
+        width: 100%;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .otherpostbodydiv{
+        width: 100%;
+        
+    }
+    .onlylap{
+        width: 100%;
+        height: 100%;
+    }
+    .otherpostbody{
+        font-size: 20px;
+    }
+}
