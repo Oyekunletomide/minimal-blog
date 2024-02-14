@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/minimal-blog/static/css/main.c517f82f.css",
+    "main.js": "/minimal-blog/static/js/main.c61be38d.js",
+    "static/media/manwithlap.png": "/minimal-blog/static/media/manwithlap.d46d8bf36e6a8c832d4e.png",
+    "static/media/mangirllap.png": "/minimal-blog/static/media/mangirllap.8c1b0f2eaf4e4c9834a6.png",
+    "static/media/onlylap.png": "/minimal-blog/static/media/onlylap.a6fc394e848018ad2dca.png",
+    "static/media/lapman.png": "/minimal-blog/static/media/lapman.cfd8dbd418aabfb088de.png",
+    "static/media/headerpic.png": "/minimal-blog/static/media/headerpic.d8880a380be64d87e795.png",
+    "index.html": "/minimal-blog/index.html",
+    "main.c517f82f.css.map": "/minimal-blog/static/css/main.c517f82f.css.map",
+    "main.c61be38d.js.map": "/minimal-blog/static/js/main.c61be38d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c517f82f.css",
+    "static/js/main.c61be38d.js"
+  ]
+}
